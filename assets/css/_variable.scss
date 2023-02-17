@@ -1,0 +1,15 @@
+@import "colors.scss";
+
+@each $color, $value in $theme-colors {
+    .btn-#{$key}
+    {
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        border:0;
+        padding:1rem;
+        border-radius:1rem;
+        background-color: $btn-color;
+    }
+  }
+
